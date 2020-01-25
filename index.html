@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<div class="header">
+<h1>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+        DayView
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    Day View
+    
+</h1>
+</div>
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a class="youtube" href="https://www.youtube.com/feed/subscriptions">Youtube</a>
+    <a class="twitch" href="https://www.twitch.tv/directory/following">Twitch</a>
+    <a class="reddit" href="https://www.reddit.com">Reddit</a>
+    <a class="gmail" href="https://mail.google.com/mail/u/0/#inbox">GMail</a>
+</div>
+
+<section>
+    <div class="column">
+        <div class="pokemon"></div>
+        <script src="main.js"></script>
+        <iframe class="horoscope" frameborder="0" src="horoscope.html" ></iframe> 
+    </div>
+    <div class="column">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/29d76n95d37/houston/?unit=us" data-icons="Climacons Animated" data-label_1="HOUSTON" data-label_2="WEATHER" data-theme="dark" >HOUSTON WEATHER</a>
+        <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+            }
+            (document,'script','weatherwidget-io-js');
+        </script>
+    </div>
+    <div class="column" >    
+        <iframe class="player" src="https://player.twitch.tv/?channel=mang0" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>  
+        <iframe class="chat"  src="https://www.twitch.tv/embed/mang0/chat?darkpopout" frameborder="0" scrolling="yes"></iframe>
+    </div>
+</section>
+</body>
+</html>
