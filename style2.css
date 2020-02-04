@@ -9,22 +9,7 @@ body {
     color: #fff;
 }
 
-.part{
-    position: relative;
-}
-
-.gate{
-    border: 2px solid #fff;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.gate:hover{
-    transform: scale(1.2,1.2);
-    transition: .7s;
-}
-
-div{
+.name{
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -32,15 +17,32 @@ div{
     flex-direction: column;
 }
 
+.nav a{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 7px;
+    margin: 0 4px;
+    font-size: 2vh;
+    color: #eeeeee;
+    font-family: calibri;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s;
+    margin: 0 10px;
+}
+
 body {
-    background-color: #000;
+    background-color: #1e2022;
     height: 200vh;
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive;
 }
 
 #text {
     list-style: none;
     border-bottom: 0;
+    font-family: "Lucida Calligraphy", "Brush Script MT", cursive;
 }
 
 #text li {
