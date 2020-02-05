@@ -99,6 +99,17 @@ h1{
     font-size: 2vh;
 }   
 
+.desc{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 7vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    line-height: 3vh;
+    padding-bottom: 2vh;
+    font-size: 2vh;
+}  
+
 #projects{
     background-color: #0092ca;
     font-family: "calibri";
