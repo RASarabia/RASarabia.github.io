@@ -24,6 +24,8 @@ body {
     margin: 10px 4px;
     font-size: 2vh;
     color: #eeeeee;
+    min-width: 5vw;
+    text-align: center;
     font-family: "calibri";
     text-decoration: none;
     display: inline-block;
@@ -71,21 +73,64 @@ body {
     max-width: 0;
 }
 
+h1{
+    text-decoration: underline;
+}
+
 .about{
     background-color: #393e46;
     font-family: "calibri";
-    height: 50vh;
-    font-size: 4vh;
-    padding: 1vh;
+    height: 100vh;
+    font-size: 3vh;
+    padding-top: 5vh;
     text-align: center;
     color: #eeeeee;
+    padding-bottom: 4vh;
 }
+
 .summary{
     vertical-align: middle;
     text-align: center;
-    padding-top: 15vh;
-    padding-right: 10vw;
-    padding-left: 10vw;
-    padding-bottom: 5vw;
+    padding-top: 13vh;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    line-height: 3vh;
+    padding-bottom: 4vh;
     font-size: 2vh;
 }   
+
+#projects{
+    background-color: #0092ca;
+    font-family: "calibri";
+    height: 10vh;
+    font-size: 4vh;
+    padding-top: 5vh;
+    text-align: center;
+    color: #eeeeee;  
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: #0092ca;
+    font-family: "calibri";
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 5vh;
+    height: 80vh;
+    
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
