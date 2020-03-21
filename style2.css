@@ -42,6 +42,7 @@ body {
     list-style: none;
     border-bottom: 0;
     font-family: "Lucida Calligraphy", "Brush Script MT", cursive;
+    padding-bottom: 5vh;
 }
 
 #text li {
@@ -126,7 +127,7 @@ h1{
     padding-bottom: 2.5vh;
     text-align: center;
     color: #ffffff;  
-    width: 99.1vw;
+    
 }
 
 
@@ -146,7 +147,6 @@ h1{
   /* Clear floats after the columns */
 .row {
     content: "";
-    display: table;
     clear: both;
 }
 .row a{
@@ -167,6 +167,17 @@ h1{
     transition: .3s;
     margin: 20px 4px;
 }
+
+.academics{
+    background-color: #2e2e2e;
+    font-family: "calibri";
+    height: 95vh;
+    font-size: 4vh;
+    padding-top: 5vh;
+    text-align: center;
+    color: #eeeeee;
+} 
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
