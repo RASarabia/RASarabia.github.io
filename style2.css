@@ -30,6 +30,8 @@ body {
     font-family: "calibri";
     text-decoration: none;
     display: inline-block;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 
 .nav a:hover{
@@ -41,8 +43,8 @@ body {
 #text {
     list-style: none;
     border-bottom: 0;
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive;
-    padding-bottom: 5vh;
+    font-family:  "Lucida Calligraphy";
+    padding-bottom: 1vh;
 }
 
 #text li {
@@ -78,11 +80,12 @@ h1{
     background-color: #27292c;
     font-family: "calibri";
     height: 100vh;
-    font-size: 3vh;
+    font-size: 4vh;
     padding-top: 5vh;
     text-align: center;
     color: #eeeeee;
     padding-bottom: 4vh;
+    padding-top: 7vh;
 }
 
 .summary{
@@ -93,7 +96,7 @@ h1{
     padding-left: 20vw;
     line-height: 3vh;
     padding-bottom: 4vh;
-    font-size: 2vh;
+    font-size: 2.3vh ;
 }   
 
 .desc{
